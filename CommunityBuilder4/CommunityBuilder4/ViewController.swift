@@ -18,3 +18,27 @@ class ViewController: UIViewController {
 
 }
 
+
+class MenuController: UITableViewController {
+    var attractionImages = [String]()
+    var attractionNames = [String]()
+    var webAddresses = [String]()
+    
+    @IBOutlet weak var loginLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        loginLabel.text = "Login"
+        print(loginLabel.text)
+    }
+    func changeLabel(Log: String);O {
+    self.loginLabel.text = log
+    print (log)
+    }
+Collapse
+
+
+}
+
+
+
