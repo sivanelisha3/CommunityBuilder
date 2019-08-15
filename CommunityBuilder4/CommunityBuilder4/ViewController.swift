@@ -10,35 +10,55 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollPage: UIScrollView!
+    
+    // Profile Code
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var interestLabel: UILabel!
+    
+    @IBOutlet weak var editName: UITextField!
+    @IBOutlet weak var editAge: UITextField!
+    @IBOutlet weak var editStatus: UITextField!
+    @IBOutlet weak var editInterest: UITextField!
+    
+    @IBAction func updateProfile(_ sender: UIButton) {
+        
+        if let editUserName = editName.text {
+            nameLabel.text = editUserName
+            
+        }
+        if let editUserStatus = editStatus.text {
+            statusLabel.text = editUserStatus
+        }
+        
+        if let editUserAge = editAge.text {
+            ageLabel.text = editUserAge
+        }
+        
+        if let editUserInterest = editStatus.text {
+            interestLabel.text = editUserInterest
+        }
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
-}
-
-
-class MenuController: UITableViewController {
-    var attractionImages = [String]()
-    var attractionNames = [String]()
-    var webAddresses = [String]()
     
-    @IBOutlet weak var loginLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        loginLabel.text = "Login"
-        print(loginLabel.text)
-    }
-    func changeLabel(Log: String);O {
-    self.loginLabel.text = log
-    print (log)
-    }
-Collapse
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
-
-
-

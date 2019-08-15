@@ -15,6 +15,7 @@
 		97C9397D23048E2D00B20F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C9397B23048E2D00B20F4A /* LaunchScreen.storyboard */; };
 		97C9398823048E2D00B20F4A /* CommunityBuilder4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9398723048E2D00B20F4A /* CommunityBuilder4Tests.swift */; };
 		97C9399323048E2D00B20F4A /* CommunityBuilder4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9399223048E2D00B20F4A /* CommunityBuilder4UITests.swift */; };
+		97CE38F62305ADCF006CE460 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE38F52305ADCF006CE460 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		97C9398E23048E2D00B20F4A /* CommunityBuilder4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityBuilder4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C9399223048E2D00B20F4A /* CommunityBuilder4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityBuilder4UITests.swift; sourceTree = "<group>"; };
 		97C9399423048E2D00B20F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CE38F52305ADCF006CE460 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				97C9397B23048E2D00B20F4A /* LaunchScreen.storyboard */,
 				97C9397E23048E2D00B20F4A /* Info.plist */,
 				97C9397623048E2B00B20F4A /* CommunityBuilder4.xcdatamodeld */,
+				97CE38F52305ADCF006CE460 /* PhotoViewController.swift */,
 			);
 			path = CommunityBuilder4;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C9397823048E2B00B20F4A /* CommunityBuilder4.xcdatamodeld in Sources */,
+				97CE38F62305ADCF006CE460 /* PhotoViewController.swift in Sources */,
 				97C9397223048E2B00B20F4A /* ViewController.swift in Sources */,
 				97C9397023048E2B00B20F4A /* AppDelegate.swift in Sources */,
 			);
