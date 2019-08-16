@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             ageLabel.text = editUserAge
         }
         
-        if let editUserInterest = editStatus.text {
+        if let editUserInterest = editInterest.text {
             interestLabel.text = editUserInterest
         }
     }
